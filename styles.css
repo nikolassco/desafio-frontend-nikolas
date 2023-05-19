@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(./assets/background\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+    height: 100px;
+    width: 100%;
+}
+
+.img-poligono {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 101px;
+    top: 39px;
+
+    border: 5px #000A4A;
+    border-radius: 6px;
+}
+
+.img-poligono2 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 105px;
+    top: 44px;
+
+    border: 5px #FFFFFF;
+    border-radius: 6px;
+}
+
+.perfil {
+    width: 40px;
+    height: 40px;
+
+    /* border: 3px solid #fdfdfd; */
+    border-radius: 10px solid #fdfdfd;
+}

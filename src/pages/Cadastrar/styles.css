@@ -1,0 +1,82 @@
+.container-signup {
+  background-image: url('../../assets/background.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container-signup header {
+  align-self: flex-start;
+  margin: 41px 0 0 100px;
+}
+
+.container-signup form {
+  margin: 58px 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 513px;
+  padding: 61px 32px 57px;
+}
+
+.container-signup h1 {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  color: #7978D9;
+  align-self: center;
+  margin: 0 0 42px;
+}
+
+.container-signup form label {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #484848;
+}
+
+.container-signup form input {
+  height: 63px;
+  margin: 8px 0 31px;
+  color: #000;
+  background: #FFFFFF;
+  border: 1px solid #555555;
+  border-radius: 5px;
+}
+
+.container-signup form button {
+  height: 53px;
+  border-radius: 5px;
+  background: #7978D9;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 550;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.container-signup form a {
+  align-self: center;
+  width: 215px;
+  height: 17px;
+  margin-top: 10px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+  color: #7B61FF;
+}
